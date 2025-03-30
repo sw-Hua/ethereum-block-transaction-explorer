@@ -52,18 +52,6 @@ python3 block_monitor.py
 ```
 持续监控新区块的生成，实时显示区块信息和交易分析。
 
-## 数据结构示例
-
-### 区块数据结构
-```json
-{
-    "Block Header": {
-        "slot": "...",
-        "proposer_index": "...",
-        "parent_root": "..."
-    }
-}
-```
 
 ## 数据结构示例
 
@@ -142,13 +130,13 @@ python3 block_monitor.py
 }
 ```
 
-## 项目结构
+# 项目结构
 
-# 虚拟环境
+## 虚拟环境
 venv/
 env/
 
-# IDE
+## IDE
 .idea/
 .vscode/
 ```
